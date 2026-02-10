@@ -11,10 +11,85 @@
       <title>Videojuego de Alexis Daniel Guardado Vela</title>
 
     <style>
-
+      @font-face {
+         font-family: 'Chandia';
+         src: url('Chandia.woff2') format('woff2');
+         font-weight: bold;
+         font-style: normal;
+         display: swap;
+      }
+      *{
+         font-family: Arial, Helvetica, sans-serif;
+      }
+      header{
+         border: 1px solid red;
+      }
+      nav{
+         border: 1px solid black;
+         float: left;
+         width: 20%;
+         height: 600px;
+      }
+      main{
+         border: 1px solid orange;
+         width: 59.6%;
+         float: left;
+         height: 600px;
+      }
+      aside{
+         border: 1px solid purple;
+         width: 20%;
+         float: left;
+         height: 600px;
+      }
+      footer{
+         border: 1px solid blue;
+      }
+      .Chandia-bold{
+         font-family: 'Chandia';
+         font-weight: 'bold';
+      }
+      .meie-script-regular {
+         font-family: "Meie Script", cursive;
+         font-weight: 400;
+         font-style: normal;
+      }
+      
     </style>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Meie+script&display=swap" rel="stylesheet">
     <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
     <script src="scripts.js"></script>
    </head>
+   <body>
+      <header>
+         <h1>Este es un videojuego de Alexis Daniel Guardado Vela</h1>
+      </header>
+      <nav>
+         <h1 class="meie-script-regular">Este es e nav</h1>
+         <ul>
+            <li>Opción de menu 1</li>
+            <li>Opción de menu 2</li>
+            <li>Opción de menu 3</li>
+            <li>Opción de menu 4</li>
+            <li>Opción de menu 5</li>
+            <li>Opción de menu 6</li>
+         </ul>
+      </nav>
+      <main>
+         <h1 class="Chandia-bold">Este es el Main</h1>
+         <p>Aqui puede colocarse el videojuego</p>
+      </main>
+      <aside>
+         <h1>Este es el aside</h1>
+         <p>Aquí puede colocarse el chat con otros jugadores, información del autor, información del jugador,
+             noticias o publicidad</p>
+      </aside>
+      <footer>
+         <h1>Este es footer</h1>
+         <p>Podemos colocar información de contacto, nombre de la empresa, autores, copyright, etc.</p>
+      </footer>
+   </body>
 
 </html>
